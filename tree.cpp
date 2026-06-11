@@ -37,4 +37,7 @@ public:
         newNode->leftchild = NULL;
         newNode->rightchild = NULL;
 
-       
+        Node *parent = NULL;
+        Node *currentNode = NULL;
+
+        
